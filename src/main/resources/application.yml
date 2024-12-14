@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: UdpServer
+  profiles:
+    active: default
+
+server:
+  port: 8080
+
+
+
+tcp:
+  server:
+    port: 8888
+  client:
+    host: 127.0.0.1
+    port: 8888
